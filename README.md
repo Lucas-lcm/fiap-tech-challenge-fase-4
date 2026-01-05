@@ -1,4 +1,8 @@
 ﻿# Tech Challenge Fase 4 — Previsão de Preço (LSTM) + FastAPI
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.110-green)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
+
 
 Este projeto implementa um modelo **LSTM** para previsão de série temporal do preço de fechamento (**Close**) do ticker **NFLX** (Netflix), utilizando dados históricos obtidos do Yahoo Finance (via `yfinance`).
 
@@ -118,6 +122,16 @@ python -m uvicorn src.api.main:app --reload
 Swagger UI: http://127.0.0.1:8000/docs
 
 Health check: http://127.0.0.1:8000/health
+
+## Variáveis de Ambiente
+
+O projeto utiliza variáveis de ambiente para configuração da aplicação.
+
+Versionamos apenas o arquivo `.env.example`, que serve como **template das variáveis de ambiente esperadas pela aplicação**.
+
+O arquivo `.env` real **não é versionado**, seguindo boas práticas de **segurança**, **organização** e **reprodutibilidade** do ambiente.
+
+Atualmente, as variáveis definidas são utilizadas como referência e preparação para cenários futuros de configuração externa da aplicação.
 
 ## Execução com Docker (ambiente universal)
 
