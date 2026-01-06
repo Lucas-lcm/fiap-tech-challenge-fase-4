@@ -71,7 +71,9 @@ Os testes apresentaram os seguintes resultados quantitativos:
 | **RMSE** | **1.5609** | A raiz do erro quadrático médio indica estabilidade sem grandes outliers. |
 | **MAPE** | **2.38%** | O modelo apresenta um erro percentual médio de apenas **2.38%**. |
 
-### Inferências
+### Inferências   
+
+![alt text](image.png)
 
 1. **Alta Precisão:** Um MAPE de 2.38% em renda variável demonstra que o modelo aprendeu de forma eficiente a dinâmica de preços do ativo.
 2. **Tendência vs. Ruído:** A análise visual (presente no notebook) confirma que a LSTM consegue acompanhar as tendências de alta e baixa (bull/bear), suavizando ruídos excessivos de mercado.
