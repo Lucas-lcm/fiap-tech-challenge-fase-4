@@ -1,5 +1,4 @@
-﻿```markdown
-# Tech Challenge Fase 4 — Previsão de Preço (LSTM) + FastAPI
+﻿# Tech Challenge Fase 4 — Previsão de Preço (LSTM) + FastAPI
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.110-green)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
